@@ -1,12 +1,12 @@
 export const routes = [
 	{
 		id: 1,
-		title: 'My First Blog Post',
-		body: 'Lorem ipsum dolor sitamet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+		title: 'Cкоро: "АИС ГПОУ МПТ"',
+		body: 'Узнайте, что нас ждет в ближайшие месяцы',
 	},
 	{
 		id: 2,
-		title: 'My Second Blog Post',
-		body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dignissimos dolorem ea ex maiores minima minus nisi perspiciatis sapiente voluptate',
+		title: 'Да здравствует Сайт!',
+		body: 'Узнайте основную информацию о сайте',
 	},
 ]

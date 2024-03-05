@@ -1,34 +1,23 @@
 <svelte:head>
-<title>Имя Фамилия</title>
+<title>Сергей Дубинин</title>
 </svelte:head>
 <div class='container'>
  <div class='info'>
- <div class='animate-background'>
- <div class='container info-container'>
- <div class='info-text'>
- <h1>
- <p class='animate-text1'>Lorem ipsum dolor sit,</p>
- <p class='text-2'>Lorem
-ipsum dolor sit amet.</p>
- </h1>
- </div>
- <h2 class='subtitle'>
- Lorem ipsum dolor sit
-amet, consectetur adipisicing elit.
-Accusantium architecto aut, cupiditate dolores
- ducimus expedita labore
-nemo odio quibusdam quidem sapiente soluta.
- </h2>
- <div style='color:black'
-class='scroll-button animate-scroll'
-tabindex='0'>
- <a href='/about'>Click
-Here</a>
- <div class='arrow'>→</div>
- </div>
- </div>
- </div>
- </div>
+  <div class='animate-background'>
+   <div class='container info-container'>
+    <div class='info-text'>
+      <h1>
+      <p class='animate-text1'>Здравствуйте,</p>
+      <p class='text-2'>приветствую вас на своем сайте!</p>
+      </h1>
+    </div>
+        <h2 class='subtitle'>Здесь вы можете ознакомиться со мной, моим портфолио и информацией обо мне</h2>
+        <div style='color:black' class='scroll-button animate-scroll'tabindex='0'><a href='/about'>Обо мне</a> 
+        <div class='arrow'>→</div>
+        </div>
+    </div>
+  </div>
+</div>
 </div>
 <div class='background-div'></div>
 

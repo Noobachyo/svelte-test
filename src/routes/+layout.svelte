@@ -1,7 +1,6 @@
 <nav>
  <div class="nav-container">
- <a href="/" class="nav-logo" title="Back to
-Homepage">Сергей Дубинин</a>
+ <a href="/" class="nav-logo" title="Back to Homepage">Сергей Дубинин</a>
  <div class="nav-links">
 {#each nav as link}
 {#if link.isShow}
@@ -52,5 +51,7 @@ class="link">{link.title}</a>
  .container {
  max-width: 1400px;
  margin: 50px auto;
+  background-color:
+#435;
  }
 </style>

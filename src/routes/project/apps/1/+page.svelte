@@ -30,7 +30,7 @@ function add() {
 
 <main>
   <form on:submit|preventDefault={add}>
- <input bind:value={newItem}
+  <input bind:value={newItem}
 placeholder="Enter to-do" />
  <button class="add-todo"
 on:click={add}><span>+</span></button>
@@ -51,10 +51,10 @@ on:click={add}><span>+</span></button>
  </div>
  {/each}
  </div>
-
 </main>
+
 <style>
-  main {
+ main {
  display: flex;
  flex-direction: column;
  align-items: center;

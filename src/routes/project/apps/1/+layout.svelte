@@ -2,6 +2,7 @@
  <a href='/project'>Домой</a>
  <slot/>
 </div>
+
 <style>
  .container {
  margin: 50px auto;

@@ -25,6 +25,7 @@
  .info {
  text-align: center;
  position: relative;
+  background-color: rgb(33, 34, 74);
  }
  .info-container {
  height: 100%;
@@ -33,6 +34,7 @@
  justify-content: center;
  text-align: left;
  align-items: start;
+  background-color: rgb(33, 34, 74);
  }
  .container {
  max-width: 1400px;
@@ -59,8 +61,7 @@
  margin-top: 0.50rem;
  }
  .background-div {
- background-color:
-#ecebe8;
+ background-color: rgb(33, 34, 74);
  width: 100%;
  height: 56vh;
  margin: -205px auto;

@@ -1,39 +1,7 @@
-<script>
-import Icon from '../../../../components/Icon.svelte';
-
-function remove(index) {
- todoList.splice(index, 1);
- todoList = todoList;
-}
-function complete(index) {
- todoList[index].completed = !todoList[index].completed;
-}
-
-
-  let newItem = '';
-let todoList = [];
-function add() {
- if (newItem !== '') {
- todoList = [
- ...todoList,
- {
- задача: newItem,
- завершено: false,
- },
- ];
- newItem = '';
- }
-}
-</script>
-
-<h1>My to-do list</h1>
-
 <main>
   <form on:submit|preventDefault={add}>
-  <input bind:value={newItem}
-placeholder="Enter to-do" />
- <button class="add-todo"
-on:click={add}><span>+</span></button>
+  <input bind:value={newItem} placeholder="Enter to-do" />
+  <button class="add-todo" on:click={add}><span>+</span></button>
 </form>
 
 <div class="todos">
@@ -52,6 +20,38 @@ on:click={add}><span>+</span></button>
  {/each}
  </div>
 </main>
+
+<script>
+import Icon from '../../../../components/Icon.svelte';
+
+function remove(index) {
+ todoList.splice(index, 1);
+ todoList = todoList;
+}
+function complete(index) {
+ todoList[index].completed = !todoList[index].completed;
+}
+
+let newItem = '';
+let todoList = [];
+function add() {
+ if (newItem !== '') {
+   todoList = [
+  ...todoList,
+  {
+    task: newItem,
+    completed: false,
+  },
+ ];
+ newItem = '';
+ }
+}
+</script>
+
+<h1>My to-do list</h1>
+
+
+
 
 <style>
  main {

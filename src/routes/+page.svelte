@@ -35,9 +35,9 @@
  align-items: start;
  }
  .container {
- max-width: 1920px;
+ max-width: 1400px;
  margin: 190px 0 0 2.5rem;
- 				color: white;
+ background-color: rgb(33, 34, 74);
  }
  .info h1 {
  font-size: 4rem;

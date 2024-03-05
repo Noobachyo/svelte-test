@@ -49,7 +49,8 @@ class="link">{link.title}</a>
 
 <style>
  .container {
- max-width: 1920px;
+ max-width: 1400px;
  margin: 50px auto;
+ background-color: rgb(33, 34, 74);
  }
 </style>

@@ -22,7 +22,6 @@
  </div>
 </main>
 
-<h1>My to-do list</h1>
 
 <script>
 import Icon from '../../../../components/Icon.svelte';

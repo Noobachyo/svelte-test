@@ -51,7 +51,5 @@ class="link">{link.title}</a>
  .container {
  max-width: 1400px;
  margin: 50px auto;
-  background-color:
-#435;
  }
 </style>

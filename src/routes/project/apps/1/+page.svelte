@@ -1,7 +1,7 @@
- <h1>My to-do list</h1>
+ <h1>Мой лист задач</h1>
 <main>
   <form on:submit|preventDefault={add}>
-  <input bind:value={newItem} placeholder="Enter to-do" />
+  <input bind:value={newItem} placeholder="Введите задачу..." />
   <button class="add-todo" on:click={add}><span>+</span></button>
 </form>
 

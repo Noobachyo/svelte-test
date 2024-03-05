@@ -11,7 +11,7 @@
       <p class='text-2'>приветствую вас на своем сайте!</p>
       </h1>
     </div>
-        <h2 class='subtitle'>Здесь вы можете ознакомиться со мной, моим портфолио и информацией обо мне</h2>
+        <h2 class='subtitle'>На этом сайте вы можете ознакомиться со мной, моим портфолио и информацией обо мне</h2>
         <div style='color:black' class='scroll-button animate-scroll'tabindex='0'><a href='/about'>Обо мне</a> 
         <div class='arrow'>→</div>
         </div>
@@ -76,4 +76,7 @@
  .scroll-button .arrow {
  margin-left: 0.50rem;
  }
+.subtitle{
+  background-color: rgb(33, 34, 74);
+}
 </style>

@@ -4,6 +4,8 @@
   <button class="add-todo" on:click={add}><span>+</span></button>
 </form>
 
+<h1>My to-do list</h1>
+
 <div class="todos">
  {#each todoList as item, index}
  <div class="todo" class:completed={item.completed}>
@@ -20,8 +22,6 @@
  {/each}
  </div>
 </main>
-
-<h1>My to-do list</h1>
 
 <script>
 import Icon from '../../../../components/Icon.svelte';

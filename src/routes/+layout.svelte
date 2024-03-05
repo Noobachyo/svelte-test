@@ -49,7 +49,7 @@ class="link">{link.title}</a>
 
 <style>
  .container {
- max-width: 1400px;
+ max-width: 1920px;
  margin: 50px auto;
  }
 </style>

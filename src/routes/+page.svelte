@@ -35,8 +35,9 @@
  align-items: start;
  }
  .container {
- max-width: 1400px;
+ max-width: 1920px;
  margin: 190px 0 0 2.5rem;
+ 				color: white;
  }
  .info h1 {
  font-size: 4rem;
@@ -77,6 +78,9 @@
  margin-left: 0.50rem;
  }
 .subtitle{
+  background-color: rgb(33, 34, 74);
+}
+.info-text{
   background-color: rgb(33, 34, 74);
 }
 </style>

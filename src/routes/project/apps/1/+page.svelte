@@ -1,5 +1,5 @@
+ <h1>My to-do list</h1>
 <main>
-  <h1>My to-do list</h1>
   <form on:submit|preventDefault={add}>
   <input bind:value={newItem} placeholder="Enter to-do" />
   <button class="add-todo" on:click={add}><span>+</span></button>

@@ -11,8 +11,8 @@
       <p class='text-2'>приветствую вас на своем сайте!</p>
       </h1>
     </div>
-        <h2 class='subtitle'>На этом сайте вы можете ознакомиться со мной, моим портфолио и информацией обо мне</h2>
-        <div style='color:black' class='scroll-button animate-scroll'tabindex='0'><a href='/about'>Обо мне</a> 
+        <h2 class='subtitle'>Кликнув по ссылке ниже, вы можете ознакомиться с моими достижениями в программировании</h2>
+        <div style='color:black' class='scroll-button animate-scroll'tabindex='0'><a href='/about'>По этой ссылке</a> 
         <div class='arrow'>→</div>
         </div>
     </div>

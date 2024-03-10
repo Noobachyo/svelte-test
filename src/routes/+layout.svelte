@@ -22,22 +22,22 @@ class="link">{link.title}</a>
  {
  title: 'Обо мне',
  href: '/about',
- isShow: false,
+ isShow: true,
  },
  {
  title: 'Блог',
  href: '/blog',
- isShow: false,
+ isShow: true,
  },
  {
  title: 'Портфолио',
  href: '/project',
- isShow: false,
+ isShow: true,
  },
  {
  title: 'Контакты',
  href: '/contact',
- isShow: false,
+ isShow: true,
  },
  {
  title: 'temp',
